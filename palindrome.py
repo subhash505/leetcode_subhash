@@ -14,6 +14,8 @@ class Solution(object):
             reverse = reverse * 10 + number % 10
             number //= 10
         print(reverse)
-        return x == reverse
-s=Solution()
+        return reverse
+s=Solution()   
 s.isPalindrome(2332)
+
+s.isPalindrome(852255665563451)
